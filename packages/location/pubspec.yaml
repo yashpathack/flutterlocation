@@ -23,8 +23,16 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  location_platform_interface: ^2.3.0
-  location_web: ^3.1.1
+  location_platform_interface:
+    git:
+      url: git://github.com/dreambitio/flutterlocation.git
+      ref: release/3.2.4
+      path: location_platform_interface/
+  location_web:
+    git:
+      url: git://github.com/dreambitio/flutterlocation.git
+      ref: release/3.2.4
+      path: location_web/  
 dev_dependencies:
   async: ^2.5.0
   build_runner: ^1.11.5
